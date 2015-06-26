@@ -12,6 +12,10 @@ $(".h1-msg-text").on("click", function() {
 	$("body").append('<h1>This is "some text to the body element".</h1>')
 });
 
+$(".ul-msg-text").on("click", function() {
+	$("body").append('<ul><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul>')
+});
+
 
 
 
